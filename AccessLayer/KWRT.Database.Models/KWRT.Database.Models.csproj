@@ -71,9 +71,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Models\KWRTUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
