@@ -37,3 +37,5 @@ C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\bin\Microsoft.CodeDom.Prov
 C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\obj\Debug\KWRT.Database.Migrations.csprojResolveAssemblyReference.cache
 C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\obj\Debug\KWRT.Database.Migrations.dll
 C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\obj\Debug\KWRT.Database.Migrations.pdb
+C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\bin\KWRT.Database.Migrations.dll.config
+C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\bin\KWRT.Database.Models.dll.config

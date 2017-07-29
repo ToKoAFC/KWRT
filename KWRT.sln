@@ -1,17 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KWRT", "KWRT\KWRT.csproj", "{B857395C-EA44-4E11-89D5-B3B201F27CC1}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccessLayer", "AccessLayer", "{F9E22596-A915-4D07-8071-8F33BDFCF24F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LogicLayer", "LogicLayer", "{AD602B35-A232-4994-BE0A-D9FED6096605}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D88F508B-8C89-4B8D-A8E3-F51BEBB4884A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KWRT.Database", "AccessLayer\KWRT.Database\KWRT.Database.csproj", "{965C996B-9C6B-4E7D-8295-7C29938F50D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KWRT.Database.Models", "AccessLayer\KWRT.Database.Models\KWRT.Database.Models.csproj", "{AB8A994F-4CAE-409B-86F6-CCF267868C60}"
 EndProject
@@ -25,14 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B857395C-EA44-4E11-89D5-B3B201F27CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B857395C-EA44-4E11-89D5-B3B201F27CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B857395C-EA44-4E11-89D5-B3B201F27CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B857395C-EA44-4E11-89D5-B3B201F27CC1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{965C996B-9C6B-4E7D-8295-7C29938F50D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{965C996B-9C6B-4E7D-8295-7C29938F50D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{965C996B-9C6B-4E7D-8295-7C29938F50D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{965C996B-9C6B-4E7D-8295-7C29938F50D3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AB8A994F-4CAE-409B-86F6-CCF267868C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AB8A994F-4CAE-409B-86F6-CCF267868C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB8A994F-4CAE-409B-86F6-CCF267868C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -50,7 +38,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{965C996B-9C6B-4E7D-8295-7C29938F50D3} = {F9E22596-A915-4D07-8071-8F33BDFCF24F}
 		{AB8A994F-4CAE-409B-86F6-CCF267868C60} = {F9E22596-A915-4D07-8071-8F33BDFCF24F}
 		{DAFCBE6A-47C6-4290-ACC2-C752D0CABC97} = {F9E22596-A915-4D07-8071-8F33BDFCF24F}
 		{875BB79A-A018-41CA-9F0F-62DD630D2ED4} = {D88F508B-8C89-4B8D-A8E3-F51BEBB4884A}
