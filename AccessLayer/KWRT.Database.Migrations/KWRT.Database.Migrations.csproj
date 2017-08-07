@@ -72,9 +72,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="KWRTContext.cs" />
-    <Compile Include="Migrations\201707271803464_init.cs" />
-    <Compile Include="Migrations\201707271803464_init.Designer.cs">
-      <DependentUpon>201707271803464_init.cs</DependentUpon>
+    <Compile Include="Migrations\201707312212066_UserRole.cs" />
+    <Compile Include="Migrations\201707312212066_UserRole.Designer.cs">
+      <DependentUpon>201707312212066_UserRole.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -98,8 +98,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201707271803464_init.resx">
-      <DependentUpon>201707271803464_init.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201707312212066_UserRole.resx">
+      <DependentUpon>201707312212066_UserRole.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

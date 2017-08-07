@@ -7,13 +7,13 @@ namespace KWRT.Database.Migrations.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class init : IMigrationMetadata
+    public sealed partial class UserRole : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(init));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(UserRole));
         
         string IMigrationMetadata.Id
         {
-            get { return "201707271803464_init"; }
+            get { return "201707312212066_UserRole"; }
         }
         
         string IMigrationMetadata.Source
