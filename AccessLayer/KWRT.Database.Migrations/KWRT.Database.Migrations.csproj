@@ -76,6 +76,10 @@
     <Compile Include="Migrations\201707312212066_UserRole.Designer.cs">
       <DependentUpon>201707312212066_UserRole.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708092123173_addProduct.cs" />
+    <Compile Include="Migrations\201708092123173_addProduct.Designer.cs">
+      <DependentUpon>201708092123173_addProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -100,6 +104,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201707312212066_UserRole.resx">
       <DependentUpon>201707312212066_UserRole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708092123173_addProduct.resx">
+      <DependentUpon>201708092123173_addProduct.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

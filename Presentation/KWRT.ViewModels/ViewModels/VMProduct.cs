@@ -1,4 +1,4 @@
-﻿namespace KWRT.ViewModels.ViewModels
+﻿namespace KWRT.ViewModels
 {
     public class VMProduct
     {

@@ -1,0 +1,28 @@
+﻿@model KWRT.ViewModels.VMProduct
+@{
+    ViewBag.Title = "AddProduct";
+}
+
+<h2>AddProduct</h2>
+
+@Html.BeginForm("AddProduct", "Products", FormMethod.Post){ 
+<div class="col-md-12">
+    <div class="row col-md-12">
+        @Html.LabelFor(x => Model.Name, Model.Name)
+        @Html.EditorFor(x => Model.Name, Model.Name)
+    </div>
+    <div class="row col-md-12">
+        @Html.LabelFor(x => Model.Description, Model.Description)
+        @Html.EditorFor(x => Model.Description, Model.Description)
+    </div>
+    <div class="row col-md-12">
+        @Html.LabelFor(x => Model.Price, Model.Price)
+        @Html.EditorFor(x => Model.Price, Model.Price)
+    </div>
+    <div class="row col-md-12">
+        <button type="submit" class="btn btn-success" value="Dodaj produkt" />        
+    </div>
+</div>
+
+}
+

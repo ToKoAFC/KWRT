@@ -41,3 +41,4 @@ C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\bin\KWRT.Database.Migratio
 C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\bin\KWRT.Database.Models.dll.config
 C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\obj\Debug\KWRT.Database.Migrations.Migrations.UserRole.resources
 C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\obj\Debug\KWRT.Database.Migrations.csproj.GenerateResource.Cache
+C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\obj\Debug\KWRT.Database.Migrations.Migrations.addProduct.resources

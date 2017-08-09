@@ -1,6 +1,6 @@
 ﻿using KWRT.CoreModels.Models;
 using KWRT.Database.Access.Access;
-using KWRT.ViewModels.ViewModels;
+using KWRT.ViewModels;
 using System;
 
 namespace KWRT.Services

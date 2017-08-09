@@ -82,9 +82,17 @@
     <Compile Include="Services\ProductService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\AccessLayer\KWRT.Database.Access\KWRT.Database.Access.csproj">
+      <Project>{88F0FA4B-F507-4724-B8D7-F203A6C179F3}</Project>
+      <Name>KWRT.Database.Access</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Presentation\KWRT.ViewModels\KWRT.ViewModels.csproj">
       <Project>{E3069D5C-7F33-44D5-8217-8A25EC1AA902}</Project>
       <Name>KWRT.ViewModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KWRT.CoreModels\KWRT.CoreModels.csproj">
+      <Project>{09F59C3D-C2B8-42FA-B846-532E97547A64}</Project>
+      <Name>KWRT.CoreModels</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
