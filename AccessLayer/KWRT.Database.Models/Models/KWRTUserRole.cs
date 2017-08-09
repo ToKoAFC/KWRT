@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace KWRT.Database.Models.Models
+namespace KWRT.Database.Models
 {
     public class KWRTUserRole
     {

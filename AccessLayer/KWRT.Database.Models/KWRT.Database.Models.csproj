@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\KWRTRole.cs" />
+    <Compile Include="Models\KWRTProduct.cs" />
     <Compile Include="Models\KWRTUserRole.cs" />
     <Compile Include="Models\KWRTUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

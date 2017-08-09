@@ -1,4 +1,4 @@
-﻿using KWRT.Database.Models.Models;
+﻿using KWRT.Database.Models;
 using System.Data.Entity;
 
 namespace KWRT.Database.Migrations
@@ -8,5 +8,6 @@ namespace KWRT.Database.Migrations
         public DbSet<KWRTUser> Users { get; set; }
         public DbSet<KWRTRole> Roles { get; set; }
         public DbSet<KWRTUserRole> UserRoles { get; set; }
+        public DbSet<KWRTProduct> Products { get; set; }
     }
 }

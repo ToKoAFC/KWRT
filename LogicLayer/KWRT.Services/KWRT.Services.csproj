@@ -78,6 +78,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceResult.cs" />
+    <Compile Include="Services\ProductService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\KWRT.ViewModels\KWRT.ViewModels.csproj">
+      <Project>{E3069D5C-7F33-44D5-8217-8A25EC1AA902}</Project>
+      <Name>KWRT.ViewModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
