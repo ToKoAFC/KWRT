@@ -8,9 +8,11 @@ namespace KWRT.Database.Access.Access
     {
         private readonly KWRTContext _context;
 
-        public ProductAccess(KWRTContext context)
+        public ProductAccess()
         {
-            _context = context;
+            //TODO move to param
+            //_context = context;
+            _context = new KWRTContext();
         }
 
         public bool AddProduct(CoreProduct product)

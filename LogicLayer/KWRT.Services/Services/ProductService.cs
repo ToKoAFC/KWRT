@@ -9,6 +9,12 @@ namespace KWRT.Services
     {
         private readonly ProductAccess _productAccess;
 
+        public ProductService()
+        {
+            //TODO add param to constructor
+            _productAccess = new ProductAccess();
+        }
+
         public ServiceResult AddProduct(VMProduct product)
         {
             var result = new ServiceResult();

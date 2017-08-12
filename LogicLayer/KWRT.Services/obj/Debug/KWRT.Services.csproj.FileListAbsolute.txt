@@ -27,13 +27,10 @@ C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\roslyn\VBCSCompiler.exe.config
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.Services.dll.config
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.Services.dll
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.Services.pdb
-C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Projects\KWRT\LogicLayer\KWRT.Services\obj\Debug\KWRT.Services.dll
-C:\Projects\KWRT\LogicLayer\KWRT.Services\obj\Debug\KWRT.Services.pdb
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.CoreModels.dll
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.Database.Access.dll
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.ViewModels.dll
+C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.Database.Migrations.dll
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.Database.Models.dll
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\EntityFramework.dll
@@ -43,9 +40,12 @@ C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.ViewModels.pdb
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.ViewModels.dll.config
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.CoreModels.pdb
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.CoreModels.dll.config
+C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.Database.Migrations.pdb
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.Database.Migrations.dll.config
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.Database.Models.pdb
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\KWRT.Database.Models.dll.config
 C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\EntityFramework.xml
 C:\Projects\KWRT\LogicLayer\KWRT.Services\obj\Debug\KWRT.Services.csprojResolveAssemblyReference.cache
+C:\Projects\KWRT\LogicLayer\KWRT.Services\obj\Debug\KWRT.Services.dll
+C:\Projects\KWRT\LogicLayer\KWRT.Services\obj\Debug\KWRT.Services.pdb

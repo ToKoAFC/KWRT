@@ -29,6 +29,5 @@ C:\Projects\KWRT\Presentation\KWRT.ViewModels\bin\KWRT.ViewModels.dll
 C:\Projects\KWRT\Presentation\KWRT.ViewModels\bin\KWRT.ViewModels.pdb
 C:\Projects\KWRT\Presentation\KWRT.ViewModels\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Projects\KWRT\Presentation\KWRT.ViewModels\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Projects\KWRT\Presentation\KWRT.ViewModels\obj\Debug\KWRT.ViewModels.csprojResolveAssemblyReference.cache
 C:\Projects\KWRT\Presentation\KWRT.ViewModels\obj\Debug\KWRT.ViewModels.dll
 C:\Projects\KWRT\Presentation\KWRT.ViewModels\obj\Debug\KWRT.ViewModels.pdb
