@@ -77,6 +77,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\KWRTFeature.cs" />
     <Compile Include="Models\KWRTRole.cs" />
     <Compile Include="Models\KWRTProduct.cs" />
     <Compile Include="Models\KWRTUserRole.cs" />

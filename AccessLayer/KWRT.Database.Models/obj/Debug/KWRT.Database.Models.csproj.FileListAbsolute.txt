@@ -35,6 +35,6 @@ C:\Projects\KWRT\AccessLayer\KWRT.Database.Models\bin\System.Data.SqlClient.dll
 C:\Projects\KWRT\AccessLayer\KWRT.Database.Models\bin\EntityFramework.xml
 C:\Projects\KWRT\AccessLayer\KWRT.Database.Models\bin\EntityFramework.SqlServer.xml
 C:\Projects\KWRT\AccessLayer\KWRT.Database.Models\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Projects\KWRT\AccessLayer\KWRT.Database.Models\obj\Debug\KWRT.Database.Models.csprojResolveAssemblyReference.cache
 C:\Projects\KWRT\AccessLayer\KWRT.Database.Models\obj\Debug\KWRT.Database.Models.dll
 C:\Projects\KWRT\AccessLayer\KWRT.Database.Models\obj\Debug\KWRT.Database.Models.pdb
+C:\Projects\KWRT\AccessLayer\KWRT.Database.Models\obj\Debug\KWRT.Database.Models.csprojResolveAssemblyReference.cache

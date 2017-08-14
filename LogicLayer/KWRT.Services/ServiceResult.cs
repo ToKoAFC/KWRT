@@ -10,5 +10,6 @@ namespace KWRT.Services
         public bool Result { get; set; }
         public string ErrorMessage { get; set; }
         public Exception Exception { get; set; }
+        public object Data { get; set; }
     }
 }

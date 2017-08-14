@@ -1,5 +1,6 @@
 ﻿using KWRT.Services;
 using KWRT.ViewModels;
+using System.Collections.Generic;
 using System.Web.Mvc;
 
 namespace KWRT.Web.Controllers
@@ -16,7 +17,8 @@ namespace KWRT.Web.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            var model = _productService.GetProducts().Data as List<VMProduct>;
+            return View(model);
         }
 
         public ActionResult AddProduct()

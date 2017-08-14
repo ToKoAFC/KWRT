@@ -49,3 +49,5 @@ C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\EntityFramework.xml
 C:\Projects\KWRT\LogicLayer\KWRT.Services\obj\Debug\KWRT.Services.csprojResolveAssemblyReference.cache
 C:\Projects\KWRT\LogicLayer\KWRT.Services\obj\Debug\KWRT.Services.dll
 C:\Projects\KWRT\LogicLayer\KWRT.Services\obj\Debug\KWRT.Services.pdb
+C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\EntityFramework.SqlServer.dll
+C:\Projects\KWRT\LogicLayer\KWRT.Services\bin\EntityFramework.SqlServer.xml

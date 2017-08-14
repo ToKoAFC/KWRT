@@ -9,5 +9,6 @@ namespace KWRT.Database.Migrations
         public DbSet<KWRTRole> Roles { get; set; }
         public DbSet<KWRTUserRole> UserRoles { get; set; }
         public DbSet<KWRTProduct> Products { get; set; }
+        public DbSet<KWRTFeature> Features { get; set; }
     }
 }
