@@ -1,0 +1,22 @@
+﻿@model List<KWRT.ViewModels.VMFeature>
+@{
+    ViewBag.Title = "Index";
+}
+<div class="col-md-12">
+    <div class="col-md-2 col-md-offset-10">
+        <div class="btn btn-default">
+            @Html.ActionLink("Dodaj właściwość", "AddFeature", "Features")
+        </div>
+    </div>
+    @if (Model != null)
+    {
+        foreach (var feature in Model)
+        {
+            <div class="col-md-3 table-bordered">
+                <h3>@feature.Name</h3>
+            </div>
+        }
+    }
+
+</div>
+

@@ -7,43 +7,40 @@ using System.Linq;
 
 namespace KWRT.Database.Access.Access
 {
-    public class ProductAccess
+    public class FeatureAccess
     {
         private readonly KWRTContext _context;
         private volatile Type _dependency;
 
-        public ProductAccess()
+        public FeatureAccess()
         {
-            //TODO move to param // Autofac
-            //_context = context;
             _context = new KWRTContext();
             _dependency = typeof(System.Data.Entity.SqlServer.SqlProviderServices);
         }
 
-        public bool AddProduct(CoreProduct product)
+        public bool AddFeature(CoreFeature feature)
         {
-            if (product == null)
+            if (feature == null)
             {
                 return false;
             }
-            var dbProduct = new KWRTProduct()
+            var dbFeature = new KWRTFeature()
             {
-                Description = product.Description,
-                Name = product.Name,
-                IsDelete = false,
+                IsActive = feature.IsActive,
+                Name = feature.Name,
                 CreatedDate = DateTime.Now
             };
-            _context.Products.Add(dbProduct);
+            _context.Features.Add(dbFeature);
             _context.SaveChanges(); 
             return true;
         }
 
-        public List<CoreProduct> GetProducts()
+        public List<CoreFeature> GetFeatures()
         {
-            var dbProducts = _context.Products.Where(x => !x.IsDelete).ToList();
-            return dbProducts.Select(x => new CoreProduct()
+            var dbFeatures = _context.Features.ToList();
+            return dbFeatures.Select(x => new CoreFeature()
             {
-                Description = x.Description,
+                IsActive = x.IsActive,
                 Name = x.Name,
             }).ToList();
         }

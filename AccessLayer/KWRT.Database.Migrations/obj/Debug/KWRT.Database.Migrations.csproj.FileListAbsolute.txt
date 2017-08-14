@@ -45,3 +45,4 @@ C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\obj\Debug\KWRT.Database.Mi
 C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\obj\Debug\KWRT.Database.Migrations.dll
 C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\obj\Debug\KWRT.Database.Migrations.pdb
 C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\obj\Debug\KWRT.Database.Migrations.Migrations.addFeatures.resources
+C:\Projects\KWRT\AccessLayer\KWRT.Database.Migrations\obj\Debug\KWRT.Database.Migrations.Migrations.AddCreatedDate.resources

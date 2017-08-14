@@ -78,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\VMFeature.cs" />
     <Compile Include="ViewModels\VMProduct.cs" />
   </ItemGroup>
   <PropertyGroup>

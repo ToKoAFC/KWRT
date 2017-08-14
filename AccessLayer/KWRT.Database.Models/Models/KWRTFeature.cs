@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -17,6 +18,8 @@ namespace KWRT.Database.Models
         public string Name { get; set; }
 
         public bool IsActive { get; set; }
+
+        public DateTime CreatedDate { get; set; }
 
         public virtual ICollection<KWRTProduct> Products { get; set; }
     }

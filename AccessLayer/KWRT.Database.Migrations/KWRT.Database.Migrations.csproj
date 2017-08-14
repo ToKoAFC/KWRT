@@ -90,6 +90,10 @@
     <Compile Include="Migrations\201708142131468_addFeatures.Designer.cs">
       <DependentUpon>201708142131468_addFeatures.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708142247045_AddCreatedDate.cs" />
+    <Compile Include="Migrations\201708142247045_AddCreatedDate.Designer.cs">
+      <DependentUpon>201708142247045_AddCreatedDate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -120,6 +124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708142131468_addFeatures.resx">
       <DependentUpon>201708142131468_addFeatures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708142247045_AddCreatedDate.resx">
+      <DependentUpon>201708142247045_AddCreatedDate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

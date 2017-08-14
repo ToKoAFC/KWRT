@@ -1,0 +1,20 @@
+﻿@model KWRT.ViewModels.VMFeature
+@{
+    ViewBag.Title = "AddFeature";
+}
+
+<h2>AddFeature</h2>
+
+@Html.BeginForm("AddFeature", "Features", FormMethod.Post){
+<div class="col-md-12">
+    <div class="row col-md-12">
+        @Html.LabelFor(x => Model.Name, Model.Name)
+        @Html.EditorFor(x => Model.Name, Model.Name)
+    </div>
+    <div class="row col-md-12">
+        <button type="submit" class="btn btn-success" value="Dodaj właściwość">Dodaj właściwość</button>
+    </div>
+</div>
+
+}
+
