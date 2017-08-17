@@ -8,14 +8,17 @@
             @Html.ActionLink("Dodaj produkt", "AddProduct","Products")
         </div>
     </div>
-    @foreach (var product in Model)
+    @if (Model != null)
     {
-        <div class="col-md-3 table-bordered">
-            <h3>@product.Name<span class="label label-default"></span></h3>
-            <span>
-                @product.Description
-            </span>
-        </div>
+        foreach (var product in Model)
+        {
+            <div class="col-md-3 table-bordered">
+                <h3>@product.Name<span class="label label-default"></span></h3>
+                <span>
+                    @product.Description
+                </span>
+            </div>
+        }
     }
 
 </div>
