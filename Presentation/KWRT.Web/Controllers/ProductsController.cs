@@ -1,6 +1,5 @@
-﻿using KWRT.Services;
+﻿using KWRT.Services.Product;
 using KWRT.ViewModels;
-using System.Collections.Generic;
 using System.Web.Mvc;
 
 namespace KWRT.Web.Controllers
