@@ -7,17 +7,15 @@ namespace KWRT.Web.Controllers
 {
     public class ProductsController : Controller
     {
-        private readonly ProductService _productService;
+        private readonly IProductService _productService;
 
-        public ProductsController()
-        {   //TODO get service from costructor
-            //_productService = productService;
-            _productService = new ProductService();
+        public ProductsController(IProductService productService) { 
+            _productService = productService;
         }
 
         public ActionResult Index()
         {
-            var model = _productService.GetProducts().Data as List<VMProduct>;
+            var model = _productService.GetProducts();
             return View(model);
         }
 

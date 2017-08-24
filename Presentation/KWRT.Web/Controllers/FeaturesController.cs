@@ -1,23 +1,21 @@
-﻿using KWRT.Services;
+﻿using KWRT.Services.Feature;
 using KWRT.ViewModels;
-using System.Collections.Generic;
 using System.Web.Mvc;
 
 namespace KWRT.Web.Controllers
 {
     public class FeaturesController : Controller
     {
-        private readonly FeatureService _featureService;
+        private readonly IFeatureService _featureService;
 
-        public FeaturesController()
-        {   //TODO get service from costructor
-            //_productService = productService;
-            _featureService = new FeatureService();
+        public FeaturesController(IFeatureService featureService)
+        {  
+            _featureService = featureService;
         }
 
         public ActionResult Index()
         {
-            var model = _featureService.GetFeatures().Data as List<VMFeature>;            
+            var model = _featureService.GetFeatures();           
             return View(model);
         }
 

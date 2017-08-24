@@ -5,9 +5,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace KWRT.Database.Access.Access
+namespace KWRT.Database.Access.Feature
 {
-    public class FeatureAccess
+    public class FeatureAccess : IFeatureAccess
     {
         private readonly KWRTContext _context;
         private volatile Type _dependency;

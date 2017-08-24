@@ -1,13 +1,14 @@
 ﻿using KWRT.CoreModels.Models;
+using KWRT.Database.Access.Product;
 using KWRT.Database.Migrations;
 using KWRT.Database.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace KWRT.Database.Access.Access
+namespace KWRT.Database.Access.Product
 {
-    public class ProductAccess
+    public class ProductAccess : IProductAccess
     {
         private readonly KWRTContext _context;
         private volatile Type _dependency;

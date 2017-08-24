@@ -88,8 +88,10 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Access\FeatureAccess.cs" />
-    <Compile Include="Access\ProductAccess.cs" />
+    <Compile Include="Access\Feature\IFeatureAccess.cs" />
+    <Compile Include="Access\Feature\FeatureAccess.cs" />
+    <Compile Include="Access\Product\IProductAccess.cs" />
+    <Compile Include="Access\Product\ProductAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

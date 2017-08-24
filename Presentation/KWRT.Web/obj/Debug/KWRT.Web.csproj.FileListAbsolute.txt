@@ -88,3 +88,7 @@ C:\Projects\KWRT\Presentation\KWRT.Web\obj\Debug\KWRT.Web.dll
 C:\Projects\KWRT\Presentation\KWRT.Web\obj\Debug\KWRT.Web.pdb
 C:\Projects\KWRT\Presentation\KWRT.Web\bin\EntityFramework.SqlServer.dll
 C:\Projects\KWRT\Presentation\KWRT.Web\bin\EntityFramework.SqlServer.xml
+C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\obj\Debug\KWRT.Web.csprojResolveAssemblyReference.cache
+C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\obj\Debug\KWRT.Web.csproj.CoreCompileInputs.cache
+C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\obj\Debug\KWRT.Web.dll
+C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\obj\Debug\KWRT.Web.pdb
