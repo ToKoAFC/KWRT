@@ -1,0 +1,6 @@
+C:\Projects\KWRT\KWRT\LogicLayer\KWRT.Common\bin\Debug\KWRT.Common.dll
+C:\Projects\KWRT\KWRT\LogicLayer\KWRT.Common\bin\Debug\KWRT.Common.pdb
+C:\Projects\KWRT\KWRT\LogicLayer\KWRT.Common\obj\Debug\KWRT.Common.csprojResolveAssemblyReference.cache
+C:\Projects\KWRT\KWRT\LogicLayer\KWRT.Common\obj\Debug\KWRT.Common.csproj.CoreCompileInputs.cache
+C:\Projects\KWRT\KWRT\LogicLayer\KWRT.Common\obj\Debug\KWRT.Common.dll
+C:\Projects\KWRT\KWRT\LogicLayer\KWRT.Common\obj\Debug\KWRT.Common.pdb

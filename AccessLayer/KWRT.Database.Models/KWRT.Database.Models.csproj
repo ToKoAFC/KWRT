@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>KWRT.Database.Models</RootNamespace>
     <AssemblyName>KWRT.Database.Models</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -22,6 +22,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -76,6 +77,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\KWRTFeatureType.cs" />
+    <Compile Include="Models\KWRTFeatureTypeValue.cs" />
+    <Compile Include="Models\KWRTFeatureValue.cs" />
     <Compile Include="Models\KWRTFeature.cs" />
     <Compile Include="Models\KWRTRole.cs" />
     <Compile Include="Models\KWRTProduct.cs" />
@@ -95,6 +99,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LogicLayer\KWRT.Common\KWRT.Common.csproj">
+      <Project>{0016459b-e2c2-4818-a57d-a08ae641866c}</Project>
+      <Name>KWRT.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -102,24 +112,7 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
-        <WebProjectProperties>
-          <UseIIS>True</UseIIS>
-          <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50892</DevelopmentServerPort>
-          <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50892/</IISUrl>
-          <NTLMAuthentication>False</NTLMAuthentication>
-          <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
-          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
-        </WebProjectProperties>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
+  <ProjectExtensions />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>

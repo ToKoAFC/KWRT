@@ -95,3 +95,5 @@ C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Migrations\obj\Debug\KWRT.Databa
 C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Migrations\obj\Debug\KWRT.Database.Migrations.csproj.CoreCompileInputs.cache
 C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Migrations\obj\Debug\KWRT.Database.Migrations.dll
 C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Migrations\obj\Debug\KWRT.Database.Migrations.pdb
+C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Migrations\bin\KWRT.Common.dll
+C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Migrations\bin\KWRT.Common.pdb

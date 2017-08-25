@@ -79,3 +79,5 @@ C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Models\obj\Debug\KWRT.Database.M
 C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Models\obj\Debug\KWRT.Database.Models.csproj.CoreCompileInputs.cache
 C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Models\obj\Debug\KWRT.Database.Models.dll
 C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Models\obj\Debug\KWRT.Database.Models.pdb
+C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Models\bin\KWRT.Common.dll
+C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Models\bin\KWRT.Common.pdb

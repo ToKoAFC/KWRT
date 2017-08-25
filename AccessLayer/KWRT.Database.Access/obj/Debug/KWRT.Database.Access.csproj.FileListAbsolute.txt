@@ -97,3 +97,5 @@ C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Access\obj\Debug\KWRT.Database.A
 C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Access\obj\Debug\KWRT.Database.Access.csproj.CoreCompileInputs.cache
 C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Access\obj\Debug\KWRT.Database.Access.dll
 C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Access\obj\Debug\KWRT.Database.Access.pdb
+C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Access\bin\KWRT.Common.dll
+C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Access\bin\KWRT.Common.pdb
