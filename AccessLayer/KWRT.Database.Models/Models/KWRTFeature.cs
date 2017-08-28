@@ -10,6 +10,7 @@ namespace KWRT.Database.Models
         public KWRTFeature()
         {
             Products = new HashSet<KWRTProduct>();
+            Modules = new HashSet<KWRTModule>();
         }
 
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -17,10 +18,11 @@ namespace KWRT.Database.Models
 
         public string Name { get; set; }
 
-        public bool IsActive { get; set; }
+        public string Description { get; set; }
 
         public DateTime CreatedDate { get; set; }
 
         public virtual ICollection<KWRTProduct> Products { get; set; }
+        public virtual ICollection<KWRTModule> Modules { get; set; }
     }
 }

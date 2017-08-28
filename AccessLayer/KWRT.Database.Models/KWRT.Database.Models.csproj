@@ -77,9 +77,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\KWRTFeatureType.cs" />
+    <Compile Include="Models\KWRTModule.cs" />
+    <Compile Include="Models\KWRTFeatureElementType.cs" />
     <Compile Include="Models\KWRTFeatureTypeValue.cs" />
-    <Compile Include="Models\KWRTFeatureValue.cs" />
+    <Compile Include="Models\KWRTFeatureElements.cs" />
     <Compile Include="Models\KWRTFeature.cs" />
     <Compile Include="Models\KWRTRole.cs" />
     <Compile Include="Models\KWRTProduct.cs" />
