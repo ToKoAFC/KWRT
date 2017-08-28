@@ -78,21 +78,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="KWRTContext.cs" />
-    <Compile Include="Migrations\201707312212066_UserRole.cs" />
-    <Compile Include="Migrations\201707312212066_UserRole.Designer.cs">
-      <DependentUpon>201707312212066_UserRole.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201708092123173_addProduct.cs" />
-    <Compile Include="Migrations\201708092123173_addProduct.Designer.cs">
-      <DependentUpon>201708092123173_addProduct.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201708142131468_addFeatures.cs" />
-    <Compile Include="Migrations\201708142131468_addFeatures.Designer.cs">
-      <DependentUpon>201708142131468_addFeatures.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201708142247045_AddCreatedDate.cs" />
-    <Compile Include="Migrations\201708142247045_AddCreatedDate.Designer.cs">
-      <DependentUpon>201708142247045_AddCreatedDate.cs</DependentUpon>
+    <Compile Include="Migrations\201708282151069_init.cs" />
+    <Compile Include="Migrations\201708282151069_init.Designer.cs">
+      <DependentUpon>201708282151069_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,29 +92,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="packages.config" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201707312212066_UserRole.resx">
-      <DependentUpon>201707312212066_UserRole.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201708092123173_addProduct.resx">
-      <DependentUpon>201708092123173_addProduct.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201708142131468_addFeatures.resx">
-      <DependentUpon>201708142131468_addFeatures.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201708142247045_AddCreatedDate.resx">
-      <DependentUpon>201708142247045_AddCreatedDate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201708282151069_init.resx">
+      <DependentUpon>201708282151069_init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

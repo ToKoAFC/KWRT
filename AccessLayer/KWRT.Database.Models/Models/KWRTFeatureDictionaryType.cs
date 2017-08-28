@@ -3,11 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace KWRT.Database.Models
 {
-    public class KWRTFeatureElementType
+    public class KWRTFeatureDictionaryType
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int FeatureElementTypeId { get; set; }
+        public int DictionaryTypeId { get; set; }
         public string Value { get; set; }
-        public bool IsDictionary { get; set; }
     }
 }

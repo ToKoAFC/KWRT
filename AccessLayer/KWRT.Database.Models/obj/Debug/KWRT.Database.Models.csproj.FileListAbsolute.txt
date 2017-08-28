@@ -64,7 +64,6 @@ C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Models\bin\roslyn\vbc.exe.config
 C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Models\bin\roslyn\vbc.rsp
 C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Models\bin\roslyn\VBCSCompiler.exe
 C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Models\bin\roslyn\VBCSCompiler.exe.config
-C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Models\bin\KWRT.Database.Models.dll.config
 C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Models\bin\KWRT.Database.Models.dll
 C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Models\bin\KWRT.Database.Models.pdb
 C:\Projects\KWRT\KWRT\AccessLayer\KWRT.Database.Models\bin\EntityFramework.dll

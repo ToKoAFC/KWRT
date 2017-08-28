@@ -170,14 +170,9 @@ C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\Microsoft.AI.ServerTelemetryChan
 C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\Microsoft.AI.WindowsServer.xml
 C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\Microsoft.AI.Web.xml
 C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\KWRT.Database.Access.pdb
-C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\KWRT.Database.Access.dll.config
 C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\KWRT.CoreModels.pdb
 C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\KWRT.CoreModels.dll.config
 C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\KWRT.Database.Migrations.pdb
-C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\KWRT.Database.Migrations.dll.config
 C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\KWRT.Database.Models.pdb
-C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\KWRT.Database.Models.dll.config
 C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\EntityFramework.SqlServer.xml
 C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\EntityFramework.xml
-C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\KWRT.Common.dll
-C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\KWRT.Common.pdb

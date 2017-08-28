@@ -10,5 +10,10 @@ namespace KWRT.Database.Migrations
         public DbSet<KWRTUserRole> UserRoles { get; set; }
         public DbSet<KWRTProduct> Products { get; set; }
         public DbSet<KWRTFeature> Features { get; set; }
+        public DbSet<KWRTFeatureDictionary> FeatureDictionaries { get; set; }
+        public DbSet<KWRTFeatureDictionaryType> FeatureDictionaryTypes { get; set; }
+        public DbSet<KWRTFeatureElements> FeatureElements { get; set; }
+        public DbSet<KWRTFeatureElementType> FeatureElementTypes { get; set; }
+        public DbSet<KWRTModule> Modules { get; set; }
     }
 }

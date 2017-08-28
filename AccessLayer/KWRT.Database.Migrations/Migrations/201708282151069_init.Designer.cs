@@ -7,13 +7,13 @@ namespace KWRT.Database.Migrations.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class addProduct : IMigrationMetadata
+    public sealed partial class init : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(addProduct));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(init));
         
         string IMigrationMetadata.Id
         {
-            get { return "201708092123173_addProduct"; }
+            get { return "201708282151069_init"; }
         }
         
         string IMigrationMetadata.Source

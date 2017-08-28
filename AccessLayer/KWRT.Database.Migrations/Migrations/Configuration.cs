@@ -1,15 +1,18 @@
 namespace KWRT.Database.Migrations.Migrations
 {
+    using System;
+    using System.Data.Entity;
     using System.Data.Entity.Migrations;
+    using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<KWRTContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<KWRT.Database.Migrations.KWRTContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(KWRTContext context)
+        protected override void Seed(KWRT.Database.Migrations.KWRTContext context)
         {
             //  This method will be called after migrating to the latest version.
 

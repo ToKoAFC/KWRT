@@ -26,7 +26,6 @@ namespace KWRT.Database.Access.Feature
             }
             var dbFeature = new KWRTFeature()
             {
-                IsActive = feature.IsActive,
                 Name = feature.Name,
                 CreatedDate = DateTime.Now
             };
@@ -40,7 +39,6 @@ namespace KWRT.Database.Access.Feature
             var dbFeatures = _context.Features.ToList();
             return dbFeatures.Select(x => new CoreFeature()
             {
-                IsActive = x.IsActive,
                 Name = x.Name,
             }).ToList();
         }
