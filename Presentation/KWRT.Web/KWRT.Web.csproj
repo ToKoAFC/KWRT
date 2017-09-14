@@ -47,6 +47,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.6.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Autofac.4.6.1\lib\net45\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Autofac.Mvc5.4.0.2\lib\net45\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
@@ -142,6 +148,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IoCConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\FeaturesController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
@@ -217,6 +224,14 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\AccessLayer\KWRT.Database.Access\KWRT.Database.Access.csproj">
+      <Project>{88F0FA4B-F507-4724-B8D7-F203A6C179F3}</Project>
+      <Name>KWRT.Database.Access</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AccessLayer\KWRT.Database.Migrations\KWRT.Database.Migrations.csproj">
+      <Project>{DAFCBE6A-47C6-4290-ACC2-C752D0CABC97}</Project>
+      <Name>KWRT.Database.Migrations</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\LogicLayer\KWRT.Services\KWRT.Services.csproj">
       <Project>{844EC0A7-CDD1-473E-813F-99F58E71760F}</Project>
       <Name>KWRT.Services</Name>

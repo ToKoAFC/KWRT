@@ -176,3 +176,7 @@ C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\KWRT.Database.Migrations.pdb
 C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\KWRT.Database.Models.pdb
 C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\EntityFramework.SqlServer.xml
 C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\EntityFramework.xml
+C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\Autofac.dll
+C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\Autofac.xml
+C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\Autofac.Integration.Mvc.dll
+C:\Projects\KWRT\KWRT\Presentation\KWRT.Web\bin\Autofac.Integration.Mvc.xml

@@ -62,7 +62,6 @@ C:\Projects\KWRT\KWRT\LogicLayer\KWRT.Extensions\bin\KWRT.Extensions.dll
 C:\Projects\KWRT\KWRT\LogicLayer\KWRT.Extensions\bin\KWRT.Extensions.pdb
 C:\Projects\KWRT\KWRT\LogicLayer\KWRT.Extensions\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Projects\KWRT\KWRT\LogicLayer\KWRT.Extensions\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Projects\KWRT\KWRT\LogicLayer\KWRT.Extensions\obj\Debug\KWRT.Extensions.csprojResolveAssemblyReference.cache
 C:\Projects\KWRT\KWRT\LogicLayer\KWRT.Extensions\obj\Debug\KWRT.Extensions.csproj.CoreCompileInputs.cache
 C:\Projects\KWRT\KWRT\LogicLayer\KWRT.Extensions\obj\Debug\KWRT.Extensions.dll
 C:\Projects\KWRT\KWRT\LogicLayer\KWRT.Extensions\obj\Debug\KWRT.Extensions.pdb
